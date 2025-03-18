@@ -32,3 +32,10 @@ A full-stack Next.js application that helps you debug your code by analyzing it 
 
     ```bash
     npm install --legacy-peer-deps
+3. **Set Up Environment Variables:**
+   If necessary, create a .env file for environment-specific configurations (e.g., database URL). For this project, no extra variables are required by default.
+4. **Run the Development Server:**
+
+    ```bash
+    npm run dev
+Open http://localhost:3000 in your browser.
