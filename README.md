@@ -46,3 +46,16 @@ On the homepage, paste or type your code into the rich CodeMirror editor.
 Click the "Analyze Code" button. The app will send your code to the /api/debug endpoint, which uses ESLint to analyze the code.
 3. **Review Results:**
 View the list of ESLint errors, auto-fixed code, and a brief explanation of the analysis below the editor.
+## Project Structure
+code-debug-assistant/
+├── pages/
+│   ├── index.js         # Frontend UI with CodeMirror integration
+│   └── api/
+│       └── debug.js     # API endpoint for code analysis
+├── prisma/
+│   ├── dev.db           # SQLite database file
+│   └── schema.prisma    # Prisma schema
+├── .npmrc               # Configures npm to use legacy-peer-deps
+├── package.json         # Project dependencies and scripts
+└── next.config.js       # Next.js configuration
+
