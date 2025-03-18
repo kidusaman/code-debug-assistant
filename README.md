@@ -9,8 +9,7 @@ A full-stack Next.js application that helps you debug your code by analyzing it 
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Deployment](#deployment)
-- [Future Enhancements](#future-enhancements)
-- [License](#license)
+
 
 ## Features
 
