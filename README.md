@@ -38,4 +38,4 @@ A full-stack Next.js application that helps you debug your code by analyzing it 
 
     ```bash
     npm run dev
-Open http://localhost:3000 in your browser.
+   Open http://localhost:3000 in your browser.
