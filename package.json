@@ -1,0 +1,26 @@
+{
+    "name": "code-debug-assistant",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "devDependencies": {
+        "prisma": "^6.3.1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@prisma/client": "^6.3.1",
+        "codemirror": "^5.65.9",
+        "eslint": "^9.22.0",
+        "next": "^15.1.6",
+        "react": "^19.0.0",
+        "react-codemirror2": "^8.0.1",
+        "react-dom": "^19.0.0"
+    }
+}
