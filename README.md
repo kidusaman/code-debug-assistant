@@ -39,3 +39,10 @@ A full-stack Next.js application that helps you debug your code by analyzing it 
        ```bash
        npm run dev
    Open http://localhost:3000 in your browser.
+## Usage
+1. **Paste Your Code:**
+On the homepage, paste or type your code into the rich CodeMirror editor.
+2. **Analyze Code:**
+Click the "Analyze Code" button. The app will send your code to the /api/debug endpoint, which uses ESLint to analyze the code.
+3. **Review Results:**
+View the list of ESLint errors, auto-fixed code, and a brief explanation of the analysis below the editor.
