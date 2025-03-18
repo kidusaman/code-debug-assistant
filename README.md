@@ -27,3 +27,8 @@ A full-stack Next.js application that helps you debug your code by analyzing it 
    ```bash
    git clone https://github.com/kidusaman/code-debug-assistant.git
    cd code-debug-assistant
+2. **Install Dependencies:**
+   Use the legacy peer dependency flag to resolve dependency conflicts:
+
+    ```bash
+    npm install --legacy-peer-deps
