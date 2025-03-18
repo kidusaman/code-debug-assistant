@@ -38,7 +38,7 @@ A full-stack Next.js application that helps you debug your code by analyzing it 
 
     ```bash
    npm run dev
-   Open http://localhost:3000 in your browser.
+Open http://localhost:3000 in your browser.
 ## Usage
 1. **Paste Your Code:**
 On the homepage, paste or type your code into the rich CodeMirror editor.
