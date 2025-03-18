@@ -59,3 +59,14 @@ code-debug-assistant/
 ├── package.json         # Project dependencies and scripts
 └── next.config.js       # Next.js configuration
 
+## Deployment
+
+1. **This project can be easily deployed to Vercel:**
+2. **Push your code to GitHub.**
+   - Import your repository on Vercel:
+   - Sign in to Vercel.
+   - Click "New Project" and select your GitHub repository.
+Follow the prompts (Vercel will auto-detect the Next.js settings).
+3. **Deploy:**
+   - Vercel will build and deploy your project. A live URL will be provided upon successful deployment.
+
